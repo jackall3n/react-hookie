@@ -1,17 +1,54 @@
 {
   "name": "react-hookie",
   "version": "1.0.8",
-  "main": "index.js",
+  "main": "dist/index.js",
   "license": "MIT",
-  "dependencies": {
-    "react": "^16.8.6"
+  "scripts": {
+    "test": "jest"
+  },
+  "devDependencies": {
+    "@types/enzyme": "^3.9.3",
+    "@types/jest": "^24.0.13",
+    "@types/react": "^16.8.19",
+    "enzyme": "^3.10.0",
+    "enzyme-adapter-react-16": "^1.14.0",
+    "jest": "^24.8.0",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6",
+    "ts-jest": "^24.0.2",
+    "typescript": "^3.5.1"
   },
   "repository": {
     "type": "GIT",
-    "url": "https://github.com/jackall3n/react-hookie.git"
+    "url": "git+https://github.com/jackall3n/react-hookie.git"
   },
+  "bugs": {
+    "url": "https://github.com/jackall3n/react-hookie/issues"
+  },
+  "homepage": "https://github.com/jackall3n/react-hookie#readme",
   "keywords": [
     "react",
     "react hooks"
-  ]
+  ],
+  "jest": {
+    "collectCoverageFrom": [
+      "src/*/**/*.ts*"
+    ],
+    "snapshotSerializers": [
+      "enzyme-to-json/serializer"
+    ],
+    "coverageReporters": [
+      "text",
+      "html",
+      "json-summary"
+    ],
+    "coverageThreshold": {
+      "global": {
+        "branches": 100,
+        "functions": 100,
+        "lines": 100,
+        "statements": 100
+      }
+    }
+  }
 }
