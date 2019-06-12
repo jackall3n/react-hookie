@@ -1,6 +1,6 @@
 {
   "name": "react-hookie",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "main": "index.js",
   "license": "MIT",
   "dependencies": {
@@ -10,5 +10,8 @@
     "type": "GIT",
     "url": "https://github.com/jackall3n/react-hookie.git"
   },
-  "keywords": ["react", "react hooks"]
+  "keywords": [
+    "react",
+    "react hooks"
+  ]
 }
