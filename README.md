@@ -1,6 +1,6 @@
-Want a hookie? 🍪
+## Want a hookie? 🍪
 
-Cleaning up react hooks
+#### Cleaning up react hooks
 
 From:
 ```typescript
