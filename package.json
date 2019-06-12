@@ -9,5 +9,6 @@
   "repository": {
     "type": "GIT",
     "url": "https://github.com/jackall3n/react-hookie.git"
-  }
+  },
+  "keywords": ["react", "react hooks"]
 }
