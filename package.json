@@ -5,5 +5,9 @@
   "license": "MIT",
   "dependencies": {
     "react": "^16.8.6"
+  },
+  "repository": {
+    "type": "GIT",
+    "url": "https://github.com/jackall3n/react-hookie.git"
   }
 }
