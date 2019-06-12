@@ -10,12 +10,13 @@ const useHookie = <T>(configuration: T, reactUseState: any): HookieReturn<T> => 
         const initial_value = (configuration as any)[key];
         const [value, set] = reactUseState(initial_value);
 
-        config[key] = {
-            _:value,
-            set
+        return {
+            ...config,
+            [key]: {
+                _:value,
+                set
+            }
         };
-
-        return config;
     }, {} as any)
 };
 
