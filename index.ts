@@ -13,8 +13,9 @@ const useHookie = <T>(configuration: T, reactUseState: any): HookieReturn<T> => 
         config[key] = {
             _:value,
             set
-        }
+        };
 
+        return config;
     }, {} as any)
 };
 

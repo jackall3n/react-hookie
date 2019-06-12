@@ -18,4 +18,5 @@ const initial_state = {
 }
 
 const { firstname, lastname, age } = useHookie(initial_state, useState)
+
 ```
